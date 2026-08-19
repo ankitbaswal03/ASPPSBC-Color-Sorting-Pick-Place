@@ -1,0 +1,61 @@
+# Arduino IDE generated files
+*.ino.cpp
+*.ino.d
+*.ino.elf
+*.ino.hex
+*.ino.map
+*.ino.obj
+*.ino.eep
+*.ino.lss
+*.ino.sym
+*.ino.elf
+
+# Compiled files
+*.o
+*.a
+*.out
+*.app
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*.backup
+
+# Python cache (if any)
+__pycache__/
+*.pyc
+*.pyo
+
+# Node modules (if any)
+node_modules/
+package-lock.json
+
+# Temp files
+tmp/
+temp/
+
+# PCB design files
+*.sch-bak
+*.pcb-bak
+
+# Compiled APK
+*.apk
+
+# Logs
+*.log
