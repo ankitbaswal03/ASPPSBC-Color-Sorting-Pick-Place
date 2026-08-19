@@ -150,9 +150,18 @@ The mobile app provides manual control for:
 ### Circuit Diagram
 ![Circuit Diagram](docs/circuit_diagrams/circuit_diagram_1.png)
 
+### Project Setup
+![Project Setup](docs/images/project_photo.jpg)
+
+### Electrical Panel
+![PLC Panel](docs/images/plc_panel.jpg)
+
+---
+
 ---
 
 ## 🚧 Installation & Setup
+
 
 ### Prerequisites
 - Arduino IDE with ESP8266 board support
@@ -179,6 +188,32 @@ The mobile app provides manual control for:
 - **Palletizing**: Arrange products onto pallets
 
 ---
+### Step-by-Step Setup
+
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/yourusername/ASPPSBC-Color-Sorting-Pick-Place.git
+
+2.**Install Arduino Libraries**
+    ESP8266WiFi
+    ThingSpeak
+    Servo
+
+3.**Upload Firmware**
+
+Upload nodemcu_color_sensor.ino to Node MCU
+Upload arduino_bluetooth_control.ino to Arduino Uno
+Connect Hardware
+Follow pin configuration in wiring/pin_configuration.md
+
+4.**Setup ThingSpeak**
+
+Create account and channel
+Configure dashboard widgets
+
+5.**Install Mobile App**
+Install color_controller.apk on Android device
+
 
 ## 📚 References
 
@@ -192,10 +227,10 @@ The mobile app provides manual control for:
 
 ## 👥 Team Members
 
-- **PLC & IoT**: [Your Name]
-- **Microcontroller**: [Your Name]
-- **Mechanical Design**: [Team Member]
-- **Panel Work**: [Team Member]
+- **PLC & IoT**: Jatin
+- **Microcontroller**: Ankit
+- **Mechanical Design**: Ravi
+- **Panel Work**: Manav
 
 ---
 
@@ -214,3 +249,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📧 Contact
 
 For any queries, please contact: [ankitbaswal03@gmail.com.com]
+
+---
+
